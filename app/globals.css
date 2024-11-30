@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ /* Import Yeseva One from Google Fonts */
+/* Assuming you've added the font files to public/fonts */
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('/fonts/YesevaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-yeseva-one {
+  font-family: 'Yeseva One', cursive;
+}
